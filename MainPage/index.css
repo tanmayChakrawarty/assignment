@@ -99,8 +99,26 @@ ul {
     background-color: #F9F7FF;
 }
 
+.about {
+    width: 1519px;
+    height: 844px;
+    left: 0px;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.9rem;
+    background-color: white;
+}
+
 .intro-text h1 {
     font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-text h2 {
+    font-size: 3rem;
+    margin-left: 20px;
     margin-bottom: 1rem;
 }
 
@@ -110,6 +128,17 @@ ul {
 
 .header p {
     line-height: var(--line-height);
+}
+
+.about p {
+    line-height: var(--line-height);
+    margin-left: 20px;
+    color: #74757E;
+}
+
+.about img {
+    width: 700px;
+    height: auto;
 }
 
 .btn {
@@ -151,4 +180,118 @@ ul {
 .btn-right:hover {
     background-color: #6255A5;
     color: #fff;
+}
+
+.heading {
+    position: absolute;
+    width: 838px;
+    height: 60px;
+    left: 301px;
+    top: 3856px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+
+    text-align: center;
+
+    color: #212121;
+}
+
+.sub-heading {
+    position: absolute;
+    width: 555px;
+    height: 66px;
+    left: 442px;
+    top: 3940px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #74757E;
+}
+
+.testimonial_boy {
+    position: absolute;
+    width: 555px;
+    height: 391px;
+    left: 150px;
+    top: 4072px;
+}
+
+.testimonial_girl {
+    position: absolute;
+    width: 555px;
+    height: 391px;
+    left: 735px;
+    top: 4072px;
+}
+
+.sub {
+    position: absolute;
+    width: 1140px;
+    height: 380px;
+    margin-left: 210px;
+    top: 5450px;
+    background: #85D1A0;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+
+.sub h2 {
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sub h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    padding-top: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+form {
+    padding-top: 40px;
+    text-align: center;
+    /* margin: 0.4rem 2rem; */
+}
+
+.email-sub {
+    margin-left: 10px;
+    padding-left: 100px;
+    width: 434px;
+    height: 73px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+.email-sub:focus {
+    outline: none;
+}
+
+.submit-btn {
+    width: 179px;
+    height: 73px;
+    font-size: 20px;
+    color: white;
+    background: #6255A5;
+    border: 0;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.submit-btn:hover {
+    background-color: #095cf7;
 }
